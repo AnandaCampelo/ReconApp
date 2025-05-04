@@ -127,7 +127,7 @@ python3 app.py 4
 
 ```
 1. Digite a URL (ex: https://example.com)
-2. Modo agressivo? (s/N)
+2. Modo agressivo? (s/n)
 ```
 
 **Exemplo:**
@@ -136,25 +136,6 @@ python3 app.py 4
 python3 app.py 5
 > http://testphp.vulnweb.com
 > s
-```
-
-## 🔧 Configuração Avançada
-
-### Wordlists Personalizadas
-
-Coloque arquivos de wordlist em:
-
-```
-ReconApp/wordlists/
-```
-
-### Variáveis de Ambiente
-
-Crie um arquivo `.env` para configurar:
-
-```ini
-VIRUSTOTAL_API_KEY=seu_key
-SECURITYTRAILS_API_KEY=seu_key
 ```
 
 ## 🛠️ Desenvolvimento
